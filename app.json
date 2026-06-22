@@ -1,0 +1,20 @@
+{
+  "expo": {
+    "name": "GSE Terminal",
+    "slug": "gse-terminal",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "assetBundlePatterns": ["**/*"],
+    "android": {
+      "package": "com.gse.terminal",
+      "versionCode": 1,
+      "permissions": ["INTERNET"],
+      "usesCleartextTraffic": false
+    },
+    "ios": {
+      "bundleIdentifier": "com.gse.terminal",
+      "supportsTablet": true
+    }
+  }
+}

@@ -1,0 +1,19 @@
+# Built artifacts
+/build
+/app/build
+
+# Android keystore — NEVER commit the real one
+*.jks
+*.keystore
+
+# Local config
+local.properties
+.gradle
+
+# Google services — add via GitHub Secret, not committed
+# app/google-services.json  ← comment out when you add it manually
+
+# IDE
+.idea/
+*.iml
+.DS_Store
